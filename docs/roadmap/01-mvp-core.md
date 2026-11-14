@@ -1,6 +1,6 @@
 # Fase 1 — MVP Core
 
-- [ ] **F1-1 Recalc service**: `services/recalc.service.ts` → `recalculateProject(projectId, tx)` memuat milestone/task/work item/RAID, memanggil `engine.rollupProject`, `plannedProgressLinear`, `ragFromVariance`, `milestoneHealth`, lalu menyimpan semua kolom `calc*`. Tambahkan test integrasi.
+- [x] **F1-1 Recalc service**: `services/recalc.service.ts` → `recalculateProject(projectId, tx)` memuat milestone/task/work item/RAID, memanggil `engine.rollupProject`, `plannedProgressLinear`, `ragFromVariance`, `milestoneHealth`, lalu menyimpan semua kolom `calc*`. Tambahkan test integrasi.
 - [ ] **F1-2 Project Register** (FR-PRJ-01..02, 05): list + filter + badge RAG; form tambah/edit; ID otomatis `PRJ-###`.
 - [ ] **F1-3 Project Detail** (FR-PRJ-03): tab Overview (KPI project) + tab lain sebagai placeholder.
 - [ ] **F1-4 Milestone CRUD** (FR-MS-01..03): tab Milestone, validasi tanggal & total bobot, tombol bagi rata bobot.
